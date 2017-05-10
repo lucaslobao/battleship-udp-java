@@ -6,7 +6,7 @@ This code was builded for a college class and I have created this repository for
 
 The project deals with a battleship implementation using datagrams and java language
 
-Initialy builded on a single java class, the game has issues on the turn loop
+Initialy builded on a single java class, the game has some issues on Input exceptions
 
 Last but not least, i've used this Java Progressive article for help me on how to build the board: http://www.progressivejava.net/2012/10/Battleship-game-in-Java--How-to-program25.html
 
