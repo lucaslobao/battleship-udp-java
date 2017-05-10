@@ -15,7 +15,7 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author ra21308854
+ * @author Lucas Lobao and Carlos Dam√°zio
  */
 public class Battleship {
     
@@ -45,7 +45,7 @@ public class Battleship {
                     gameClient();
             }
         }catch(IOException e){
-            System.out.println("Ocorreu um erro ao ler sua opÁ„o");
+            System.out.println("Ocorreu um erro ao ler sua op√ß√£o");
         }
     }
     
@@ -191,7 +191,7 @@ public class Battleship {
         System.out.println("Digite o nome do servidor: ");//"localhost"
 	String servidor = inFromUser.readLine();
         
-        //Pegar o endereÁo do servidor
+        //Pegar o endere√ßo do servidor
 	InetAddress hostIPAddress = InetAddress.getByName(servidor);
         
         System.out.println("Digite a porta do servidor (o padrao eh 9876): ");//"9876"
@@ -213,7 +213,7 @@ public class Battleship {
                 System.out.println("Aguarde enquanto o adversario monta o tabuleiro...");
                 DatagramPacket receivePacket = new DatagramPacket(receiveData,receiveData.length); 
 		clientSocket.receive(receivePacket);
-                /* Neste ponto o programa espera uma resposta do servidor antes de prosseguir com a execuÁ„o*/
+                /* Neste ponto o programa espera uma resposta do servidor antes de prosseguir com a execu√ß√£o*/
                 
                 System.out.println("Sua vez de montar o tabuleiro!");
                 startBoard(board);
@@ -447,7 +447,7 @@ public class Battleship {
     }
     
     private static void waitYourTurn(){
-        System.out.println("Por favor aguarde a jogada do advers·rio...");
+        System.out.println("Por favor aguarde a jogada do advers√°rio...");
         System.out.println("");
     }
     
