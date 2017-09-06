@@ -11,6 +11,6 @@ Initialy builded on a single java class, the game has some issues on Input excep
 Last but not least, i've used this Java Progressive article for help me on how to build the board: http://www.progressivejava.net/2012/10/Battleship-game-in-Java--How-to-program25.html
 
 ## Next Work
-I will separate the functions on specialized classes and build a graphic interface. 
+I pretend to separate the functions on specialized classes and build a graphic interface. 
 
 Hope it's useful to someone =]
